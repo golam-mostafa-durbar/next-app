@@ -10,6 +10,10 @@ const navlinks = [
     path: "/posts",
   },
   {
+    label: "Collection",
+    path: "/collection",
+  },
+  {
     label: "Images",
     path: "/images",
   },
@@ -30,7 +34,7 @@ const navlinks = [
 const Navbar = () => {
   return (
     <div className="w-full bg-slate-500 text-white py-5">
-      <ul className="flex justify-center gap-x-10">
+      <ul className="flex justify-center gap-x-6">
         {navlinks.map((nav, index) => (
           <li key={index + 1} className="hover:underline">
             <Link href={nav.path}>{nav.label}</Link>
