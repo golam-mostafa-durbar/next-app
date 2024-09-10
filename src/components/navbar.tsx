@@ -26,6 +26,10 @@ const navlinks = [
     path: "/file-upload",
   },
   {
+    label: "Sliders",
+    path: "/sliders",
+  },
+  {
     label: "Login",
     path: "/login",
   },
