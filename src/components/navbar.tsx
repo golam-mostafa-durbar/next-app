@@ -30,6 +30,10 @@ const navlinks = [
     path: "/sliders",
   },
   {
+    label: "Play",
+    path: "/play",
+  },
+  {
     label: "Login",
     path: "/login",
   },
