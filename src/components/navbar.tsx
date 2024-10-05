@@ -18,6 +18,10 @@ const navlinks = [
     path: "/images",
   },
   {
+    label: "Image",
+    path: "/image",
+  },
+  {
     label: "Videos",
     path: "/videos",
   },
