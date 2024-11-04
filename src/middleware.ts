@@ -6,7 +6,6 @@ import { getCookie } from "./lib/cookie";
 const protectedRoutes = [
   "/posts",
   "/posts/",
-  "/images",
   "/videos",
   "/file-upload",
   "/login",
