@@ -34,6 +34,10 @@ const navlinks = [
     path: "/sliders",
   },
   {
+    label: "Custom Input",
+    path: "/custom-input",
+  },
+  {
     label: "Play",
     path: "/play",
   },

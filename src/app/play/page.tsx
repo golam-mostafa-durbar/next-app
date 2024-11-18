@@ -10,12 +10,16 @@ import "swiper/css/pagination";
 
 import "./style.css";
 import { Image1, Image2, Image3, Image4 } from "@/lib/images";
+import RecommendationForm from "@/components/recommendation-form";
 
 const images = [Image1, Image2, Image3, Image4];
 
 const PlayPage = () => {
   return (
     <div className="flex flex-col space-y-3 mb-20">
+      <h1 className="text-2xl font-semibold pt-6 ml-4">Recommendation Form</h1>
+      <RecommendationForm />
+
       <h1 className="text-2xl font-semibold pt-6 ml-4">Diagram</h1>
       <div className="w-full bg-slate-200 px-20 flex justify-between">
         <div className="triangle-up "></div>
